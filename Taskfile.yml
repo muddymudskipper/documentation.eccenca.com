@@ -40,7 +40,7 @@ tasks:
     desc: Clean up working directory
     run: once
     cmds:
-      - rm -rf site
+      - rm -rf site tmp
 
   install:
     desc: Install needed dependencies
@@ -104,7 +104,20 @@ tasks:
       GUI_VERSION: main
       ICON_DIR: overrides/.icons/eccenca
 
-  update:cmemc:
+
+  update:dataplatfom-config-reference:
+    desc: re-generates the dataplatform config reference
+    cmds:
+      - rm -rf tmp
+      - mkdir tmp
+      - cd tmp && git archive --remote=ssh://git@gitlab.eccenca.com:8101/elds/backend.git {{.DP_VERSION}}:src/webapp/src/main/resources configdoc | tar -x
+      # - rm -rf {{.REFERENCE_DIR}}
+    vars:
+      DP_VERSION: develop
+      REFERENCE_DIR: docs/deploy-and-configure/configuration/dataplatform
+
+
+  update:cmemc-command-reference:
     desc: re-generates the cmemc command reference
     cmds:
       - rm -rf {{.REFERENCE_DIR}}/*
