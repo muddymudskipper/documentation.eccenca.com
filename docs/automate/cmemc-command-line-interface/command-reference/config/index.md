@@ -119,7 +119,7 @@ $ curl -H "Authorization: Bearer $(cmemc -c my admin token)" $(cmemc -c my confi
 ```
 
 
-The commands return with exit code 1 if the config key is not used in the current configuration.
+The commands return exit code 1 if the config key is not used in the current configuration.
 
 
 
@@ -134,7 +134,7 @@ $ cmemc config eval [OPTIONS]
 
 
 
-The output of this command is suitable to be used by a shells `eval` command. It will output the complete configuration as `export key="value"` statements. This allows for preparation of a shell environment.
+The output of this command is suitable to be used by a shell's `eval` command. It will output the complete configuration as `export key="value"` statements. This allows for the preparation of a shell environment.
 
 ```shell-session title="Example"
 $ eval $(cmemc -c my config eval)
@@ -150,7 +150,7 @@ $ eval $(cmemc -c my config eval)
 ??? info "Options"
     ```text
 
-    --unset     Instead of export all configuration keys, this option will unset
-                all key.
+    --unset     Instead of exporting all configuration keys, this option will unset
+                all keys.
     ```
 
