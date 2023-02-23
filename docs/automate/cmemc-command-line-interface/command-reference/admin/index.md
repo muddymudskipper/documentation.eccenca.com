@@ -24,9 +24,9 @@ $ cmemc admin status [OPTIONS]
 
 
 
-This command outputs version and health information of the selected deployment. If the version information can not be retrieved, UNKNOWN shown.
+This command outputs version and health information of the selected deployment. If the version information can not be retrieved, UNKNOWN is shown.
 
-In addition to that, this command warns you if the target version of your cmemc client is newer than the version of your backend and if the ShapeCatalog has a different version then your DataPlatform component.
+Additionally, this command warns you if the target version of your cmemc client is newer than the version of your backend and if the ShapeCatalog has a different version than your DataPlatform component.
 
 To get status information of all configured deployments use this command in combination with parallel.
 
@@ -74,7 +74,7 @@ $ curl -H "Authorization: Bearer $(cmemc -c my admin token)" $(cmemc -c my confi
 ```
 
 
-Please be aware that this command can reveal secrets, which you do not want to have in log files or on the screen.
+Please be aware that this command can reveal secrets which you do not want to have in log files or on the screen.
 
 
 
