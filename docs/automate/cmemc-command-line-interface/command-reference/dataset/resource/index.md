@@ -10,7 +10,7 @@ tags:
 
 List, inspect or delete dataset file resources.
 
-File resources are identified by its name and project ID.
+File resources are identified by their names and project IDs.
 
 
 ## dataset resource list
@@ -53,7 +53,7 @@ $ cmemc dataset resource delete [OPTIONS] [RESOURCE_IDS]...
 
 
 
-You have three selection mechanisms: with specific IDs, you will delete only these resources; by using `--filter` your will delete resources based on the filter type and value; by using `--all` will delete all resources.
+You have three selection mechanisms: with specific IDs, you will delete only the corresponding resources; by using `--filter` your will delete resources based on the filter type and value; using `--all` will delete all resources.
 
 
 
@@ -72,7 +72,7 @@ You have three selection mechanisms: with specific IDs, you will delete only the
 
 ## dataset resource inspect
 
-Display all meta data of a file resource.
+Display all metadata of a file resource.
 
 ```shell-session title="Usage"
 $ cmemc dataset resource inspect [OPTIONS] RESOURCE_ID
