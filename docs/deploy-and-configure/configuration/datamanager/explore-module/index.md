@@ -356,7 +356,7 @@ Use this property to enable the History tab of DataManager.
 | -------- | ------- | -------- | -------------- | ------------ |
 | js.config.modules.explore.details.statistics.enable | true | no | none | boolean |
 
-Use this property to enable the `statistic` tab of DataManager.
+Use this property to enable the `statistics` tab of DataManager.
 
 | Property | Default | Required | Conflicts with | Valid values |
 | -------- | ------- | -------- | -------------- | ------------ |
@@ -482,7 +482,7 @@ Use this property to enable the search function in the OWL viewer.
 | -------- | ------- | -------- | -------------- | ------------ |
 | js.config.modules.explore.externalTools.toolX.enable | false | no | none | boolean |
 
-The externTools section can be used to configure one or more external tools which will be integrated as additional tabs in a resource detail view. The tool is then presented in the content of an iFrame. In addition to that, a JSON representation of the presented resource is send via postmate to the running application inside of the iFrame.
+The `externalTools` section can be used to configure one or more external tools which will be integrated as additional tabs in a resource detail view. The tool is then presented in the content of an iFrame. In addition to that, a JSON representation of the presented resource is send via postmate to the running application inside of the iFrame.
 
 Use this property to enable or disable one specific external tool configuration.
 
@@ -494,7 +494,7 @@ js.config.modules.explore.externalTools.toolX.enable: true
 | -------- | ------- | -------- | -------------- | ------------ |
 | js.config.modules.explore.externalTools.toolX.tabname | none | yes | none | string |
 
-The `externTools` section can be used to configure one or more external tools which will be integrated as additional tabs in a resource detail view. The tool is then presented in the content of an iFrame. In addition to that, a JSON representation of the presented resource is send via postmate to the running application inside of the iFrame.
+The `externalTools` section can be used to configure one or more external tools which will be integrated as additional tabs in a resource detail view. The tool is then presented in the content of an iFrame. In addition to that, a JSON representation of the presented resource is send via postmate to the running application inside of the iFrame.
 
 Use this property to name the tab for the external tool.
 
