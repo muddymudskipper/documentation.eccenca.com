@@ -9,7 +9,7 @@ hide:
 ---
 # Python Plugins
 
-Beginning from version 22.1, we support the extension of DataIntegration with build plugins.
+Beginning from version 22.1, we support the extension of DataIntegration with built plugins.
 
 The following pages give an overview about this feature:
 
@@ -25,7 +25,7 @@ The following pages give an overview about this feature:
 
     ---
 
-    Intended for Developers, this page gives an overview on the plugin concepts and how to start developing your own plugins.
+    Intended for Developers, this page gives an overview of the plugin concepts and describes how to start developing your own plugins.
 
 -   :material-cog-outline: [Setup and Configuration](setup)
 
