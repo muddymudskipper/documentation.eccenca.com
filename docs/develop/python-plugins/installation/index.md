@@ -7,8 +7,8 @@ tags:
 ---
 # Installation and Usage of Python Plugins
 
-Plugins are a released as parts of Python packages.
-They can but do not need to be open-source and published on [pypi.org](https://pypi.org/search/?q=%22cmem-plugin-%22) (a widely used Python Package Index). One package can contain of multiple plugins.
+Plugins are released as parts of Python packages.
+They can, but do not need to, be open-source and published on [pypi.org](https://pypi.org/search/?q=%22cmem-plugin-%22) (a widely used Python Package Index). One package can contain multiple plugins.
 
 ## Installation
 
@@ -55,7 +55,7 @@ urllib3             1.26.9
 wheel               0.34.2
 ```
 
-You also can (un-)install packages in a specific version or from a source distribution file.
+You also can (un)install packages in a specific version or from a source distribution file.
 Please have a look at the [admin workspace python command group](../../../automate/cmemc-command-line-interface/command-reference/admin/workspace/python/index.md) for a complete documentation of the package / plugin commands.
 
 ## Usage
@@ -80,7 +80,7 @@ From there, you can create a task in your project and use it in a workflow.
     ![Example: Searching for the Lifetime Plugin](example-search-for-lifetime-plugin.png "Example: Searching for the Lifetime Plugin")
 
 **Transform Plugins** are listed in the sidebar of the **Value formula editor** and the **Linking editor** in the **:eccenca-operation-transform: Transform** tab.
-Drag and drop it on the canvas, and connect it with ingoing and / or outgoing links to other elements.
+Drag and drop it onto the canvas and connect it with incoming and / or outgoing links to other elements.
 
 </div>
 
