@@ -77,7 +77,7 @@ The region where the Neptune instance is located i.e. "eu-central-1" s. https://
 
 ***Property: store.neptune.aws.authEnabled***
 
-Whether the Neptune instance is configured with enabled IAM authentication. In case of enabled authentication the credentials need to be accessible to the JVM of the dataplatform. Deployment on EC2 and assigning a role to the VM is sufficient. Other ways to achieve this are described in https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/credentials.html
+Enable/disable IAM authentication for the Neptune instance. In case of enabled authentication, the credentials need to be accessible by the JVM of the dataplatform. Deployment on EC2 and assigning a role to the VM is sufficient. Other ways to achieve this are described in https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/credentials.html
 
 | Category | Value |
 |--- | ---: |

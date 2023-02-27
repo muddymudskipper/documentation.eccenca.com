@@ -62,7 +62,7 @@ The port of the GraphDB database
 
 ***Property: store.graphdb.ssl-enabled***
 
-Whether SSL is enabled or not (http vs. https)
+Enable/disable SSL (https vs. http)
 
 | Category | Value |
 |--- | ---: |
@@ -117,7 +117,7 @@ Import directory to be utilized in the "workbench import with shared folder" app
 
 ***Property: store.graphdb.useDirectTransfer***
 
-Set to true to use the native Graph Store API endpoint. Set to false to use the GraphDB workbench import. The import directory must then be set.
+Set to true to use the native Graph Store API endpoint. Set to false to use the GraphDB workbench import (in this case the import directory must be set).
 
 | Category | Value |
 |--- | ---: |
@@ -128,7 +128,7 @@ Set to true to use the native Graph Store API endpoint. Set to false to use the 
 
 ***Property: store.graphdb.create-repository-on-startup***
 
-Whether to create the given repository on startup if it does not exist
+Set to true to create the given repository on startup if it does not exist
 
 | Category | Value |
 |--- | ---: |
@@ -139,7 +139,7 @@ Whether to create the given repository on startup if it does not exist
 
 ***Property: store.graphdb.gdbBaseIndex***
 
-The iri of the lucene index to be used for searches. If the default index is used, Dataplatform syncs the index with the configured 'proxy.labelProperties'
+The IRI of the lucene index to be used for searches. If the default index is used, Dataplatform syncs the index with the configured 'proxy.labelProperties'
 
 | Category | Value |
 |--- | ---: |
@@ -150,7 +150,7 @@ The iri of the lucene index to be used for searches. If the default index is use
 
 ***Property: store.graphdb.graphDbChangeTrackingActive***
 
-Whether to make use of GraphDB change tracking during SPARQL updates (s. <https://graphdb.ontotext.com/documentation/10.0/change-tracking.html>). This setting is relevant in regards to selectively evicting DP caches depending on the outcome of the SPARQL update s. also proxy.cacheSelectiveInvalidation
+Enable/disaable GraphDB change tracking during SPARQL updates (s. <https://graphdb.ontotext.com/documentation/10.0/change-tracking.html>). This setting is relevant in regards to selectively evicting DP caches depending on the outcome of the SPARQL update s. also proxy.cacheSelectiveInvalidation
 
 | Category | Value |
 |--- | ---: |

@@ -59,7 +59,7 @@ The port of the Stardog database
 
 ***Property: store.stardog.ssl-enabled***
 
-Whether SSL is enabled or not (http vs. https)
+Enable/disable SSL (http vs. https)
 
 | Category | Value |
 |--- | ---: |
