@@ -67,7 +67,7 @@ The database port of the Virtuoso server for direct access to the JDBC database
 
 ***Property: store.virtuoso.ssl-enabled***
 
-Whether SSL is enabled or not (http vs. https)
+Enable/disable SSL (http vs. https)
 
 | Category | Value |
 |--- | ---: |
