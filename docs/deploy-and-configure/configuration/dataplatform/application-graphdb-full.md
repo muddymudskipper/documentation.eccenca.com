@@ -84,7 +84,7 @@ The name of the repository to connect to
 
 ***Property: store.graphdb.username***
 
-The user name to connect with
+The username to connect with
 
 | Category | Value |
 |--- | ---: |

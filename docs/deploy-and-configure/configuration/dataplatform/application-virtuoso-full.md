@@ -78,7 +78,7 @@ Enable/disable SSL (http vs. https)
 
 ***Property: store.virtuoso.username***
 
-The user name to connect with
+The username to connect with
 
 | Category | Value |
 |--- | ---: |

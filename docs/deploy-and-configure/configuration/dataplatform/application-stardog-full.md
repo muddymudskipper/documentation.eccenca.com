@@ -79,7 +79,7 @@ The name of the repository to connect to
 | Valid values | string |
 | Environment | STORE_STARDOG_REPOSITORY |
 
-The user name to connect with
+The username to connect with
 
 ***Property: store.stardog.password***
 
