@@ -713,7 +713,7 @@ The main branch on which the git sync takes place - the sync may create new bran
 
 ***Property: gitSync.user***
 
-The git username for simple user/password authentification - may be empty for local repository (s. remoteUrl) w/o authentification
+The git username for simple user/password authentication - may be empty for local repository (s. remoteUrl) w/o authentication
 
 | Category | Value |
 |--- | ---: |
@@ -724,7 +724,7 @@ The git username for simple user/password authentification - may be empty for lo
 
 ***Property: gitSync.password***
 
-The git password for simple user/password authentification - may be empty for local repository (s. remoteUrl) w/o authentification
+The git password for simple user/password authentication - may be empty for local repository (s. remoteUrl) w/o authentication
 
 | Category | Value |
 |--- | ---: |

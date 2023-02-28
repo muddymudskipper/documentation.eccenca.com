@@ -16,13 +16,13 @@ Authorization in eccenca DataIntegration is based on OAuth. Typically the eccenc
 # The URL of the eccenca DataPlatform.
 eccencaDataPlatform.url = "http://localhost:9090"
 
-# Use OAuth for authentification against DataPlatform
+# Use OAuth for authentication against DataPlatform
 eccencaDataPlatform.oauth = false
 
 # Enable if user information should be fetched via DP and OAuth. Only uncomment if OAuth is enabled and DP is configured.
 user.manager.web.plugin = oauthUserManager
 
-# The DataPlatform endpoint that is used for authentification
+# The DataPlatform endpoint that is used for authentication
 eccencaDataPlatform.endpointId = "default"
 
 # Define the protocol used for accessing the workbench (http or https), defaults to http
@@ -811,7 +811,7 @@ The port on which the JDBC connections will be available is `10005` by default
 
 ##### Security Settings
 
-A secure connection can be configured with the authentification settings in the `hive-site.xml` , `spark-defaults.conf` and `dataintegration.conf` files.
+A secure connection can be configured with the authentication settings in the `hive-site.xml` , `spark-defaults.conf` and `dataintegration.conf` files.
 
 If Hive support is disabled ( `enableHiveSupport = false` ) or if the property `hive.server2.authentication` has the value `None` security can be disabled.
 
@@ -823,7 +823,7 @@ There exist a number of option for secure JDBC connections via Thrift and Hive:
 - User impersonation
 - Server and Client Certificates
 
-Eccenca provides a custom Authentification provider which allows to set 1 user/password combination for JDBC connections via:
+Eccenca provides a custom Authentication provider which allows to set 1 user/password combination for JDBC connections via:
 
 ```code
 spark.sql.options = {
