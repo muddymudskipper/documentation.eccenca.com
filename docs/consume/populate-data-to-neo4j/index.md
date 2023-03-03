@@ -138,7 +138,7 @@ To register the nodes and relationships, perform the following:
     Click Create.
     A transformation for Northwind Orders is created.
 
-    To add value mapping, repeat the steps followed while adding the mapping to the Employees node.
+    To add a value mapping, repeat the steps followed while adding the mapping to the Employees node.
     In this example, for orders node, specify the following:
 
     - Target entity type: `nw:Order` 

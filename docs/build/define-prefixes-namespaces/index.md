@@ -74,7 +74,7 @@ In this dialog, you are able to
 
 ## Validating Namespace Declarations
 
-After adding namespace declarations to a project, you are able to the abbreviated IRIs in user interface, such as the mapping editor, the Turtle editor or the Query editor:
+After adding namespace declarations to a project, you are able to use the abbreviated IRIs in user interfaces, such as those of the mapping editor, the Turtle editor or the Query editor:
 
 ![Prefixes displayed in the mapping dialogs, e.g. property selection.](prefix-displayed-in-mapping.png)
 

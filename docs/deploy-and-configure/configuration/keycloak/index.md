@@ -14,7 +14,7 @@ This page documents important steps in order to configure Keycloak as an authent
 
 ## Realm configuration
 
-In order to separate all configuration
+Create a dedicated realm to separate the configuration
 
 - Add new realm `cmem`
       - Switch realm's login theme to `eccenca`
@@ -30,7 +30,7 @@ In order to separate all configuration
       - Configure this client ID under `js.config.workspaces.default.authorization.oauth2.clientId` in DataManager's configuration file
       - Enable `Standard Flow Enabled` (enables OAuth 2.0 Authorization Code Flow)
       - Enable `Implicit Flow Enabled`
-      - Add the adequate URL pattern (wildcard `http://example.org/*` works) to `Valid Redirect URIs` (`*` for testing purposes is acceptable)
+      - Add an adequate URL pattern (wildcard `http://example.org/*` works) to `Valid Redirect URIs` (`*` for testing purposes is acceptable)
       - Save
       - Go to `Mappers`
         - Click `Create`

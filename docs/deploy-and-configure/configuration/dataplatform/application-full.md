@@ -184,11 +184,11 @@ The service name for DataPlatform under which the traces are stored
 | Valid values | string |
 | Environment | SPRING_ZIPKIN_SERVICE_NAME |
 
-Spring Cloud Sleuth distributed tracing. This generates IDs for queries/updates and all operations in DataPlatform. Write to tracing exporter s. spring.zipkin.
+Spring Cloud Sleuth distributed tracing. This generates IDs for queries/updates and all operations in DataPlatform. Write to tracing exporter (cf. spring.zipkin).
 
 ***Property: spring.sleuth.enabled***
 
-Whether tracing is enabled. If not, then IDs for i.e. queries are generated via UUID mechanism. Backend store "neptune" is not compatible with tracing enabled.
+Whether tracing is enabled. If not, then IDs for, e.g., queries are generated via UUID mechanism. Backend store "neptune" is not compatible with tracing enabled.
 
 | Category | Value |
 |--- | ---: |
@@ -265,7 +265,7 @@ http:
 
 ***Property: http.cors.allowedOrigins***
 
-Use this property to define the list of allowed origins. The values must be either specific origins, e.g. http://example.org, or * for all origins.
+Use this property to define the list of allowed origins. The values must be either specific origins, e.g., http://example.org, or * for all origins.
 
 | Category | Value |
 |--- | ---: |
@@ -481,8 +481,8 @@ SPARQL endpoints declare how DataPlatform connects to a SPARQL-capable store or 
 
 With the default configuration, DataPlatform uses an in-memory database. This means, that no persistent storage is available unless a store supporting data persistence is configured.
 
-The following example shows a setup in which for each Resource all rdfs:label, Literals with language es, then en and in the end those without a language are evaluated. 
-If there are no matches here, skos:prefLabel is examined in the same way
+The following example shows a setup in which for each Resource all `rdfs:label` Literals with language tag _es_ are evaluated first, with _en_ second, and lastly those without a language tag. 
+If there are no matches here, `skos:prefLabel` is examined in the same way.
 
 ```yaml
 proxy:
@@ -564,7 +564,7 @@ Allows the fallback to ignoring the languagePreferences, in case none of the con
 
 The Concise Boundary Description is used for viewing and editing resources.
 By default, up to a maximum of 5 Blank nodes are traversed for calculation.
-Increasing the max fetch will support deeper constructs, but will also add to loading time.
+Increasing the `maxCBDDepth` value will support deeper constructs, but will also add to loading time.
 
 
 | Category | Value |
@@ -713,7 +713,7 @@ The main branch on which the git sync takes place - the sync may create new bran
 
 ***Property: gitSync.user***
 
-The git username for simple user/password authentication - may be empty for local repository (s. remoteUrl) w/o authentication
+The git username for simple user/password authentication - may be empty for local repository (cf. remoteUrl) w/o authentication
 
 | Category | Value |
 |--- | ---: |
@@ -724,7 +724,7 @@ The git username for simple user/password authentication - may be empty for loca
 
 ***Property: gitSync.password***
 
-The git password for simple user/password authentication - may be empty for local repository (s. remoteUrl) w/o authentication
+The git password for simple user/password authentication - may be empty for local repository (cf. remoteUrl) w/o authentication
 
 | Category | Value |
 |--- | ---: |
@@ -1126,7 +1126,7 @@ Limits how many analytical requests can be run in parallel. Analytical requests 
 ## Asynchronous file uploads
 
 Files can be asynchronously uploaded to the backend store in multiple steps which include an analysis of the uploaded file. 
-Please s. API documentation under /api/upload/ for further information.
+Please see API documentation under /api/upload/ for further information.
 
 
 ***Property: files.maxStorageSingleFileSizeMb***

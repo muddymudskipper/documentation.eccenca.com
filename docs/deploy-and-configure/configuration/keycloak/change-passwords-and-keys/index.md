@@ -24,7 +24,7 @@ In the "Account Security" field go to "Signing In"
 
 ![signing-account](22-1-signing-account.png)
 
-Click on update in "Basic Authentication" to set a new admin password for :
+Click on update in "Basic Authentication" to set a new admin password.
 
 ![basic-auth](22-1-basic-auth.png)
 
