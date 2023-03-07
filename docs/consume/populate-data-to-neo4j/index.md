@@ -138,8 +138,8 @@ To register the nodes and relationships, perform the following:
     Click Create.
     A transformation for Northwind Orders is created.
 
-    To add a value mapping, repeat the steps followed while adding the mapping to the Employees node.
-    In this example, for orders node, specify the following:
+    To add a value mapping, repeat the following steps while adding the mapping to the Employees node.
+    In this example, specify the following for the Orders node:
 
     - Target entity type: `nw:Order` 
     - URI pattern: `urn:order-{OrderID}`
@@ -151,11 +151,11 @@ To register the nodes and relationships, perform the following:
     In this example, the Employee and Orders nodes have a relationship, SOLD.
     To create the relationship, create an Object mapping.
 
-    1. Click the circular blue button on the lower right and select Add object mapping
+    3. Click the circular blue button on the lower right and select Add object mapping
         - Target property: `nw:sold`
         - Target entity type: `nw:Employee`
         - URI pattern: `urn:empl-{EmployeeID}` 
-    2. Select Connect from Orders as this relationship is from Orders to the Employee.
+    4. Select Connect from Orders as this relationship is from Orders to the Employee.
 
     !!! info
 
@@ -175,7 +175,7 @@ To register the nodes and relationships, perform the following:
 
     Click Create. A transformation for Northwind Products is created.
 
-    1. To add value mapping define, repeat the steps followed while adding the mapping to the Employees node. In this example, for the Products node, specify the following:
+    3. To add value mapping define, repeat the followinng steps while adding the mapping to the Employees node. In this example, specify the following for the Products node:
         - Target entity type: `nw:Product`
         - URI pattern: `urn:prod-{ProductID}`
 
@@ -193,8 +193,8 @@ To register the nodes and relationships, perform the following:
 
     Click Create. A Transformation for Northwind Category is created.
 
-    To add value mapping, repeat the steps followed while adding the mapping to the Employees node.
-    In this example, for category node, specify the following:
+    To add value mapping, repeat the following steps while adding the mapping to the Employees node.
+    In this example, specify the following for Category node:
 
     - Target entity type:  `nw:Category`
     - URI pattern: `urn:cat-{CategoryID}`
@@ -223,8 +223,8 @@ To register the nodes and relationships, perform the following:
         - Type: Select _suppliers.csv_
     3. Click Create. A Transformation for Northwind Suppliers is created.
 
-    To add value mapping, repeat the steps followed while adding the mapping to the Employees node.
-    In this example, for suppliers node, specify the following:
+    To add value mapping, repeat the following steps while adding the mapping to the Employees node.
+    In this example, specify the following for the Suppliers node:
 
     - Target entity type: `nw:Supplier`
     - URI pattern: `urn:suppl-{SupplierID}`
